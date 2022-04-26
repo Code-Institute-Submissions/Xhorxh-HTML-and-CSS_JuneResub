@@ -8,8 +8,8 @@
 
 body{
     font-family: Merriweather, sans-serif;
-    color: #3a3a3a;
-    background-color: white;
+    color: #000000;
+    
 }
 /* Headings and logo */
 h1, h2{
@@ -24,7 +24,14 @@ h1, h2{
     font-size: 280%;
     margin-left: 30px;
 }
-/* Navigation links */
+/* Header and navigation links */
+#header {
+    background-color: #FF7F3F;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
@@ -46,15 +53,15 @@ h1, h2{
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border: 1px solid #000000;
+    background-color: white;
 }
+
 
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
-header {
-    background-color: #FF7F3F;
-}
+
 footer {
     background-color: #003DA5;
 }
