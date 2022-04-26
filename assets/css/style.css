@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: Merriweather, sans-serif;
+    color: #3a3a3a;
+}
 body {
-    background-color: #FF7600;
+    background-color: white;
+}
+
+header {
+    background-color: #FF7F3F;
+}
+footer {
+    background-color: #003DA5;
 }
