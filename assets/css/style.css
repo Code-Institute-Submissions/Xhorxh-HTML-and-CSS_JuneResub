@@ -5,7 +5,6 @@
     padding:0;
     border:0;
 }
-
 body{
     font-family: Merriweather, sans-serif;
     color: #000000;
@@ -18,7 +17,6 @@ h1, h2{
     letter-spacing: 4px;
     color: #000000;
 }
-
 #logo{
     float: left;
     font-size: 280%;
@@ -31,83 +29,66 @@ header {
     height: auto;
     display: inline-block;
 }
-
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
 }
-
 #logo, #menu{
     line-height: 75px;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover{
     border: 1px solid #000000;
     background-color: white;
 }
-
-
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
-
 /* Hero image and cover text */
-
 #hero {
     display: flex;
 }
-
 #hero-img{
     height: 380px;
     width: auto;
     background: url(/assets/images/hero-img.webp) no-repeat left center;
     flex: 40%;
 }
-
 #cover-text, #cover-text h2 {
     color: #000000;
 }
-
 #cover-text {
     font-size: 90%;
     font-family: Roboto;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 350px;
     height: 50px;
-            
     background-color: rgba(255, 127, 63, .6);
-    
     top: 364px;
     bottom: 30px;
     left : 150px;
     padding-top: 20px;
     position: absolute;
-
 }
-
 #cover-text a {
     text-align: center;
     text-decoration: none;
 }
+/* Travel div*/
 #travel {
     width: auto;
     height: 380px;
     flex: 50%;
     padding-top: 20px;
-    
 }
 #travel h2 {
     text-align: center;
@@ -120,11 +101,9 @@ header {
 #quote1 {
     padding-top: 30px;
 }
-
 #quote2 {
     padding-top: 40px;
 }
-
 #jc {
     padding-top: 40px;
     float: right;
@@ -141,21 +120,98 @@ header {
     background: url(/assets/images/info-img.webp) no-repeat center center ;
     overflow: hidden;
 }
-
 #info h2 {
     text-align: center;
 }
-
 #info p{
     width: 100%;
     padding-left: 10px;
     font-size: 16px;
     line-height: 20px;
 }
-
-
+/* Trips section */
+#trips div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+#trips h1{
+    text-align: center;
+}
+#trips h2{
+    color: #ffffff;
+}
+.img4 > h2 {
+    padding-top: 50%;
+}
+.img1{
+    background-image: url(/assets/images/amsterdam.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+.img2{
+    background-image: url(/assets/images/barcelona-sgf.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+.img3{
+    background-image: url(/assets/images/fcbarcelona-fc.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+.img4{
+    background-image: url(/assets/images/26458513241_725d2cf7f8_c.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+/* Footer */
 footer{
-    height: 150px;
-    background-color: #003DA5;
-   
+    background-color: #ffffff;;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.social-networks{
+    text-align: center;
+}
+.social-networks li{
+    display: inline;
+    box-shadow: 0 10px 10px rgba(255, 127, 63, 1);
+}
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #000000;
+}
+/* Social media icons hover */
+.fa-facebook:hover {
+    color: rgb(11, 74, 199);
+}
+.fa-twitter:hover {
+    color: rgb(29, 161, 242);
+}
+.fa-youtube:hover {
+    color: rgb(255, 0, 0) ;
+}
+.fa-instagram:hover {
+    color: rgb(193, 53, 132) ;
 }
