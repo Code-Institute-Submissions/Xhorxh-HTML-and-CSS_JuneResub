@@ -60,7 +60,7 @@ header {
 #hero-img{
     height: 380px;
     width: auto;
-    background: url(/assets/images/hero-img.webp) no-repeat left center;
+    background: url(./assets/images/hero-img.webp) no-repeat left center;
     flex: 40%;
 }
 #cover-text, #cover-text h2 {
@@ -151,7 +151,10 @@ header {
 #trips h2{
     color: #ffffff;
 }
-.img4 > h2 {
+#trip{
+    color: #000000;
+}
+.img4 > h3{
     padding-top: 50%;
 }
 .img1{
