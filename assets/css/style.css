@@ -60,7 +60,7 @@ header {
 #hero-img{
     height: 380px;
     width: auto;
-    background: url(../assets/images/hero-img.webp) no-repeat left center;
+    background: url(/assets/images/hero-img.webp) no-repeat left center;
     flex: 40%;
 }
 #cover-text, #cover-text h2 {
@@ -118,7 +118,7 @@ header {
     border-radius: 50%;
     shape-outside: margin-box;
     float: right;
-    background: url(../assets/images/info-img.webp) no-repeat center center ;
+    background: url(/assets/images/info-img.webp) no-repeat center center ;
     overflow: hidden;
 }
 #info h2 {
@@ -155,7 +155,7 @@ header {
     padding-top: 50%;
 }
 .img1{
-    background-image: url(../assets/images/amsterdam.webp);
+    background-image: url(/assets/images/amsterdam.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -163,7 +163,7 @@ header {
     overflow: hidden;
 }
 .img2{
-    background-image: url(../assets/images/barcelona-sgf.webp);
+    background-image: url(/assets/images/barcelona-sgf.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -171,7 +171,7 @@ header {
     overflow: hidden;
 }
 .img3{
-    background-image: url(../assets/images/fcbarcelona-fc.webp);
+    background-image: url(/assets/images/fcbarcelona-fc.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -179,7 +179,7 @@ header {
     overflow: hidden;
 }
 .img4{
-    background-image: url(../assets/images/camp-nou.webp);
+    background-image: url(/assets/images/camp-nou.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -331,7 +331,7 @@ footer{
 }
 .form-section {
     clear: left;
-    background: url(../assets/images/bg-signup.webp);
+    background: url(/assets/images/bg-signup.webp);
     background-size: cover;
     background-position: center;
     height: 900px;
