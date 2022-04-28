@@ -379,3 +379,22 @@ footer{
     background-color:#ffffff;
     color:#FF7F3F;
 }
+/* About us page*/
+.paragraf-section h1 {
+    text-align: center;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FF7F3F;
+    border-width: 5px;
+    width: 100%;
+}
+.paragraf-section {
+    text-align: center;
+}
+.paragraf-section p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
