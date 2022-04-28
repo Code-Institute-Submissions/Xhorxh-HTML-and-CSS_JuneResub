@@ -142,7 +142,7 @@ header {
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid #000000;
+    border: 2px solid #FF7F3F;
     box-sizing: border-box;
 }
 #trips h1{
@@ -328,4 +328,54 @@ footer{
 	-ms-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
+}
+.form-section {
+    clear: left;
+    background: url(/assets/images/bg-signup.webp);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+.signup-form {
+    margin: 200px 10% 0 0;
+    color: #ffffff;
+    background-color: rgba(248, 147, 88, 0.397);
+    max-width: 400px;
+    position: absolute;
+    left: 70%;
+    padding: 30px;
+}
+.signup-form > h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    width:100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+.text-input:hover {
+    border-color: #FF7F3F;
+}
+.text-input::placeholder{
+    color: #ffffff;
+}
+.explore-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3c2cd4;
+    color: #ffffff;
+    display:block;
+}
+.explore-button:hover {
+    background-color:#ffffff;
+    color:#FF7F3F;
 }
