@@ -116,7 +116,7 @@ header {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    shape-outside: margin-box;
+    
     float: right;
     background: url(/assets/images/info-img.webp) no-repeat center center ;
     overflow: hidden;
