@@ -411,7 +411,7 @@ hr {
       #hero-img{
         overflow: hidden;
         border-right:none;
-        background-image: url(/assets/images/hero-responsive.webp) no-repeat;
+        background-image: url(../images/hero-responsive.webp) no-repeat;
         }
         #travel{
           width:400px;
@@ -432,7 +432,7 @@ hr {
       #hero-img{
         overflow: hidden;
         border-right:none;
-        background-image: url(/assets/images/hero-responsive.webp) no-repeat;
+        background-image: url(../images/hero-responsive.webp) no-repeat;
         }
         #travel{
           width:100%;
@@ -453,7 +453,7 @@ hr {
       #hero-img{
         overflow: hidden;
         border-right:none;
-        background-image: url(/assets/images/hero-responsive.webp) no-repeat;
+        background-image: url(../images/hero-responsive.webp) no-repeat;
         }
         #travel{
           width:100%;
