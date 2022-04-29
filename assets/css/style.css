@@ -56,12 +56,12 @@ header {
 /* Hero image and cover text */
 #hero {
     display: flex;
+    width: 100%;
 }
 #hero-img{
     height: 380px;
     width: auto;
-    background: url(./assets/images/hero-img.webp) no-repeat left center;
-    flex: 40%;
+    flex: 35%;
 }
 #cover-text, #cover-text h2 {
     color: #000000;
@@ -340,13 +340,13 @@ footer{
     height: 900px;
 }
 .signup-form {
-    margin: 200px 10% 0 0;
+    margin: 400px 10% 0 0;
     color: #ffffff;
     background-color: rgba(46, 18, 2, 0.534);
     max-width: 400px;
     position: absolute;
-    left: 70%;
-    padding: 30px;
+    padding: 40px;
+    width: 40%;
 }
 .signup-form > h2 {
     color: #ffffff;
@@ -400,4 +400,82 @@ hr {
     width: 50%;
     text-align: center;
     margin: auto;
+}
+
+
+
+  
+  @media screen and (max-width: 600px) {
+    .flex-direction{
+        flex-direction:column;
+        }
+      #hero-img{
+        overflow: hidden;
+        border-right:none;
+        background-image: url(/assets/images/hero-responsive.webp) no-repeat;
+        }
+        #travel{
+          width:400px;
+          height:100px;
+        }
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+}
+@media screen and (max-width: 950px) {
+    .flex-direction{
+        flex-direction:column;
+        }
+      #hero-img{
+        overflow: hidden;
+        border-right:none;
+        background-image: url(/assets/images/hero-responsive.webp) no-repeat;
+        }
+        #travel{
+          width:100%;
+          height:100px;
+        }
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+}
+@media screen and (max-width: 1200px) {
+    .flex-direction{
+        flex-direction:column;
+        }
+      #hero-img{
+        overflow: hidden;
+        border-right:none;
+        background-image: url(/assets/images/hero-responsive.webp) no-repeat;
+        }
+        #travel{
+          width:100%;
+          height:100px;
+        }
+        #trips > div {
+            width: 100%;
+            clear: both;
+            height: 150px;
+            padding: 0;
+        }
+       
+        
+}
+@media screen and (max-width: 500px){
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
 }
