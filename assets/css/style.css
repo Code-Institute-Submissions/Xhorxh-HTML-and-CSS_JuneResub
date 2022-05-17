@@ -395,12 +395,13 @@ hr {
     border-color: #FF7F3F;
     border-width: 5px;
     width: 100%;
+    padding: 10px;
 }
 .paragraf-section {
     text-align: center;
 }
 .paragraf-section p {
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin: auto;
 }
