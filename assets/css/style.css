@@ -98,12 +98,15 @@ header {
     width: 100%;
     font-size: 16px;
     line-height: 20px;
+    padding-left: 10px;
 }
 #quote1 {
     padding-top: 30px;
+    padding-left: 10px;
 }
 #quote2 {
     padding-top: 40px;
+    padding-left: 10px;
 }
 #jc {
     padding-top: 40px;
@@ -441,14 +444,14 @@ hr {
             margin-bottom: 20px;
             line-height: 25px;
         }
-        .top {
+    .top {
             height: 70vh;
-          }
+        }
 }
 @media screen and (max-width: 800px) {
     .top {
         height: 50vh;
-      }
+        }
     
 }
 @media screen and (max-width: 600px) {
@@ -473,7 +476,7 @@ hr {
         }
     .top {
             height: 40vh;
-          }
+        }
 }
 @media screen and (max-width: 500px){
     #menu {
@@ -485,5 +488,5 @@ hr {
     }
     .top {
         height: 30vh;
-      }
+    }
 }
