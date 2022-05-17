@@ -280,7 +280,7 @@ footer{
 }
 .top ul li:hover::before{
 	opacity: 0;
-	background-color: rgba(0,0,0,0.90);
+	background-color: rgba(0, 0, 0, .9);
 }
 .top ul li img{
 	width: 100%;
@@ -401,73 +401,79 @@ hr {
     text-align: center;
     margin: auto;
 }
-
-
-
-  
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     .flex-direction{
         flex-direction:column;
         }
-      #hero-img{
+    #hero-img{
         overflow: hidden;
         border-right:none;
         background-image: url(../images/hero-responsive.webp) no-repeat;
         }
-        #travel{
-          width:400px;
+    #travel{
+          width:100%;
           height:100px;
         }
-        #menu {
-            clear: left;
-            float: left;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px;
+    #trips > div {
+            width: 100%;
+            clear: both;
+            height: 150px;
+            padding: 0;
         }
 }
 @media screen and (max-width: 950px) {
     .flex-direction{
         flex-direction:column;
         }
-      #hero-img{
+    #hero-img{
         overflow: hidden;
         border-right:none;
         background-image: url(../images/hero-responsive.webp) no-repeat;
         }
-        #travel{
+    #travel{
           width:100%;
           height:100px;
         }
-        #menu {
+    #menu {
             clear: left;
             float: left;
             margin-left: 30px;
             margin-bottom: 20px;
             line-height: 25px;
         }
+        .top {
+            height: 70vh;
+          }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
+    .top {
+        height: 50vh;
+      }
+    
+}
+@media screen and (max-width: 600px) {
     .flex-direction{
         flex-direction:column;
         }
-      #hero-img{
+    #hero-img{
         overflow: hidden;
         border-right:none;
         background-image: url(../images/hero-responsive.webp) no-repeat;
         }
-        #travel{
-          width:100%;
+    #travel{
+          width:400px;
           height:100px;
         }
-        #trips > div {
-            width: 100%;
-            clear: both;
-            height: 150px;
-            padding: 0;
+    #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
         }
-       
-        
+    .top {
+            height: 40vh;
+          }
 }
 @media screen and (max-width: 500px){
     #menu {
@@ -477,5 +483,7 @@ hr {
         margin-bottom: 20px;
         line-height: 25px;
     }
-
+    .top {
+        height: 30vh;
+      }
 }
