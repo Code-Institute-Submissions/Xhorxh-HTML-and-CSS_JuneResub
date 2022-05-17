@@ -241,6 +241,7 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10vh;
+    padding-bottom: 10vh;
 }
 .top ul{
 	list-style: none;
