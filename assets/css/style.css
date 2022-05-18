@@ -387,6 +387,10 @@ hr {
     .flex-direction{
         flex-direction:column;
         }
+    #hero-img{
+        overflow: hidden;
+        border-right:none;
+        }
     #travel{
           width:100%;
           height:100px;
@@ -401,6 +405,10 @@ hr {
 @media screen and (max-width: 950px) {
     .flex-direction{
         flex-direction:column;
+        }
+    #hero-img{
+        overflow: hidden;
+        border-right:none;
         }
     #travel{
           width:100%;
@@ -427,9 +435,14 @@ hr {
     .flex-direction{
         flex-direction:column;
         }
+    #hero-img{
+        overflow: hidden;
+        border-right:none;
+        }
     #travel{
-          width:400px;
+          width:100%;
           height:100px;
+          
         }
     #menu {
             clear: left;
