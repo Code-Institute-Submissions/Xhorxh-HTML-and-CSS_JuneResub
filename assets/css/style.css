@@ -466,4 +466,8 @@ hr {
     .top {
         height: 30vh;
     }
+    #menu li {
+        margin-right: 10px;
+        letter-spacing: 1px;
+      }
 }
