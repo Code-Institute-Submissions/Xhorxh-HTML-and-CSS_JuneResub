@@ -374,7 +374,8 @@ hr {
     border-color: #FF7F3F;
     border-width: 5px;
     width: 100%;
-    padding: 10px;
+    padding-bottom: 20px;
+    
 }
 .paragraf-section {
     text-align: center;
@@ -383,6 +384,14 @@ hr {
     width: 100%;
     text-align: center;
     margin: auto;
+}
+.footer {
+    background-color: #003DA5;
+    position: fixed;
+    bottom: 0;
+}
+.footer li {
+    box-shadow: 0 10px 10px rgb(255, 255, 255);
 }
 @media screen and (max-width: 1200px) {
     .flex-direction{
@@ -424,6 +433,9 @@ hr {
         }
     .top {
             height: 70vh;
+        }
+        .footer {
+            position: static;
         }
 }
 @media screen and (max-width: 800px) {
