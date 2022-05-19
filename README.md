@@ -1,132 +1,58 @@
-<h1 align="center">The flying Dutchman Website</h1>
+<h1 align="center">The flying Dutchman</h1>
 
 [View the live project here.](https://xhorxh.github.io/HTML-and-CSS/index.html)
 
-This is the first project website for me using only HTML and CSS. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential oldery users and others.
+The Flying Dutchman is a site created to hopefully bring together all Johan Cruyff's fans and explore his legacy in different locations. With the help of suggestions from users, this site will be updated every month for upcoming trips. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential elderly users and others.
 
-
-
-## User Experience (UX)
-
--   ### User stories
-
-    -   #### First Time Visitor Goals
-
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about whats offer this website.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
-    -   #### Returning Visitor Goals
-
-        1. As a Returning Visitor, I want to find information about next trips.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
-
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added trips or meetings locations.
-        
--   ### Design
-    -   #### Colour Scheme
-        -   The two main colours used for this website are orange, and white.
-    -   #### Typography
-        -   The Merriweather font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Merriweather is a clean font used frequently in programming, so it is both attractive and appropriate.
-    -   #### Imagery
-        -   Imagery is important. The first image is designed to catch the user's attention. It an old photo format to let users having a brief idea whats inside this website.
-
-*   ### Wireframes
-
-    -   Home Page Wireframe - [View](https://xhorxh.github.io/HTML-and-CSS/index.html)
-
-    -   Mobile Wireframe - [View](http://www.responsinator.com/?url=https%3A%2F%2Fxhorxh.github.io%2FHTML-and-CSS%2Findex.html)
-
-    -   Contact Us Page Wireframe - [View](https://xhorxh.github.io/HTML-and-CSS/signup.html)
+<h2 align="center"><img src="media/responsive.webp"></h2>
 
 ## Features
 
--   Responsive on all device sizes
+ __Navigation Bar__
+  - Featured on all four pages, the full responsive navigation bar includes links to the Logo on the right side, Home page, Gallery, Sign Up and About Us page and is identical on each page to allow easy navigation.
+  - The relevant navigation link is highlighted depending on the section of the page a user is on, meaning a potential elderly user is never confused as to which page they are on.   
+<img src="media/header.webp">
 
--   A little bit old school, acording to potential users.
+__Main Section__
+  - This section includes an iconic photo of Johan and gives some general information to directly understand the main purpose of this website. 
+  - The two quotes from this football player are chosen to give the user the first impression of how these trips are organized and to encourage him interacting with suggestions and participation.
+<img src="media/mainSection.webp">
 
-## Technologies Used
+__Facts Section__
+  - The facts section will allow the user to have a piece of general information about Cruyff and five facts about him, which are not widely known. 
+  - At the bottom of this section are some links for more detailed information about this player.The links will open to a new tab to allow easy navigation for the user. 
+  <img src="media/factsSection.webp"> 
 
-### Languages Used
+__Trip section__
+  - This section will allow the user to see exactly when the next trip will happen, and how it is organized. 
+  - This section will be updated every month with different trips. 
+  <img src="media/tripSection.webp">
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+  __The Footer__ 
+  - The footer section includes links to the relevant social media sites for Cruyff. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and give their suggestions for upcoming trips. 
+  <img src="media/footer.webp">
 
-### Frameworks, Libraries & Programs Used
+__Gallery__
+  - The gallery will provide the user with historical images of the greatest football player ever.
+  - This section is valuable to the user as they will be able to bring back memories.
+  <img src="media/gallery.webp">
 
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+  __The Sign Up Page__
+  - This page will allow the user to get signed up for the next trip. 
+  - The user will be asked to submit their full name and email address.
+  <img src="media/signup.webp">
 
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-
-
-## Testing
-
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-
-### Testing User Stories from User Experience (UX) Section
-
--   #### First Time Visitor Goals
-
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the upcoming trips.
-
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice.
-        2. The main points are made immediately with the hero image
-        
-
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-      
+  ## Testing 
+I tested my website all the time while I was writing it(using developer tools in Chrome to see how the elements are placed and with the help of the lessons, I managed to put everything where I wanted to). After adding media queries I had some little problems with the navigation bar and Gallery page. The navigation bar changed on devices with smaller screen resolution and it changed the order of the links, which was fixed by reducing letter-spacing and margin-right of the links. Fixing the Gallery page was a bit challenging because I used a lightbox to present the images and it was overlaying the footer. After some research of documentation, I had to change the heights of list elements for different size screens and that fixed the problem. The website is fully  responsive after lots of tests in [Responsinator](http://www.responsinator.com/?url=https://xhorxh.github.io/HTML-and-CSS/index.html), developer tools and other websites.
 
 
--   #### Returning Visitor Goals
+### Validator Testing 
 
-    1. As a Returning Visitor, I want to find the new oportunitties to travel.
-
-        1. These are clearly shown in the banner message.
-       
-
-    2. As a Returning Visitor, I want to find the best way to get in sign up for the next trip. 
-
-        1. The navigation bar clearly highlights the "Sign Up" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added travel destination.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-
-
-
-### Further Testing
-
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
-
-
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxhorxh.github.io%2FHTML-and-CSS%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fxhorxh.github.io%2FHTML-and-CSS%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Deployment
 
@@ -139,63 +65,28 @@ The project was deployed to GitHub Pages using the following steps...
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://xhorxh.github.io/HTML-and-CSS/index.html) in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
-
-### Making a Local Clone
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/Xhorxh/HTML-and-CSS.git
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
-All the images in this website are downloaded from [Flickr posts](https://www.flickr.com/)
-and [Marca](https://www.marca.com/).
-The informations are from some sorces like [Wikipedia](https://en.wikipedia.org/wiki/Main_Page),
-[The sports legends](https://www.thesportslegends.com/) and [World of Johan Cruyff](https://www.worldofjohancruyff.com/).
-In the third section of main page, I was inspired from the Love running project, this code was copied and changed.
-### Code
-
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
--   All content was written by the developer.
+-   The information is from some sources like [Wikipedia](https://en.wikipedia.org/wiki/Main_Page),
+[The sports legends](https://www.thesportslegends.com/) and [World of Johan Cruyff](https://www.worldofjohancruyff.com/).
+In the third section of the main page, I was inspired by the Love running project, this code was copied and changed.
 
 
 ### Media
 
+-   All the images on this website are downloaded from [Flickr posts](https://www.flickr.com/)
+and [Marca](https://www.marca.com/).
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+
+
