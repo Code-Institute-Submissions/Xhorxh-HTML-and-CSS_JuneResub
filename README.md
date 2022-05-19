@@ -74,7 +74,9 @@ The project was deployed to GitHub Pages using the following steps...
 
 -   The information is from some sources like [Wikipedia](https://en.wikipedia.org/wiki/Main_Page),
 [The sports legends](https://www.thesportslegends.com/) and [World of Johan Cruyff](https://www.worldofjohancruyff.com/).
-In the third section of the main page, I was inspired by the Love running project, this code was copied and changed.
+-   In the third section of the main page, I was inspired by the Love running project, this code was copied and changed.
+-   The lightbox gallery was created with the help of [CodePen](https://codepen.io/search/pens?q=lightbox+gallery)
+
 
 
 ### Media
