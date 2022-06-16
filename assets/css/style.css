@@ -228,7 +228,6 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10vh;
-    padding-bottom: 10vh;
 }
 .top ul{
 	list-style: none;
@@ -436,17 +435,32 @@ hr {
             line-height: 25px;
         }
     .top {
-            height: 70vh;
+            height: 74vh;
         }
-        .footer {
+    .footer {
             position: static;
-        }
+    }
+}
+@media screen and (max-width: 885px) {
+    .top {
+        height: 66vh;
+    }
 }
 @media screen and (max-width: 800px) {
     .top {
-        height: 50vh;
+        height: 60vh;
         }
-    
+}
+@media screen and (max-width: 720px) {
+    .top {
+        height: 56vh;
+    }
+
+}
+@media screen and (max-width: 675px) {
+    .top {
+        height: 50vh;
+    }
 }
 @media screen and (max-width: 600px) {
     .flex-direction{
@@ -469,7 +483,7 @@ hr {
             line-height: 25px;
         }
     .top {
-            height: 40vh;
+            height: 42vh;
         }
 }
 @media screen and (max-width: 500px){
@@ -481,14 +495,28 @@ hr {
         line-height: 25px;
     }
     .top {
-        height: 30vh;
+        height: 37vh;
     }
     #menu li {
         margin-right: 10px;
     }
-}@media screen and (max-width: 400px){
+}
+@media screen and (max-width: 450px){
+    .top {
+        height: 33vh;
+    }
+}
+@media screen and (max-width: 400px){
     #menu li {
         margin-right: 10px;
         letter-spacing: 0px;
-      }
+    }
+    .top {
+        height: 30vh;
+    }
 }
+@media screen and (max-width: 370px){
+    .top {
+        height: 27vh;
+    }
+  }
